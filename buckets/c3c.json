@@ -1,0 +1,16 @@
+{
+  "version": "0.6.4",
+  "description": "Compiler for the C3 language",
+  "homepage": "https://c3-lang.org/",
+  "url": "https://github.com/c3lang/c3c/releases/download/v0.6.4/c3-windows.zip",
+  "hash": "616b20f310e04200dc600ccd79a7e76ac8a5a789f96f7ef88f6bf10cfd93ddaa",
+  "license": "LGPL-3.0-only",
+  "depends": "python",
+  "post_install": {
+    "script": "echo y | python3 $dir\\msvc_build_libraries.py"
+  },
+  "env_add_path": true,
+  "suggets": "Please uninstall 'python3' package if you dont need it.",
+  "extract_dir": "c3-windows-Release",
+  "bin": "c3c.exe",
+}
