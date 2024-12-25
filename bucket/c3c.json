@@ -1,9 +1,9 @@
 {
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "Compiler for the C3 language",
   "homepage": "https://c3-lang.org/",
-  "url": "https://github.com/c3lang/c3c/releases/download/v0.6.4/c3-windows.zip",
-  "hash": "616b20f310e04200dc600ccd79a7e76ac8a5a789f96f7ef88f6bf10cfd93ddaa",
+  "url": "https://github.com/c3lang/c3c/releases/download/v0.6.5/c3-windows.zip",
+  "hash": "12ec12abf0fd114bce7ed401e91979610caf3301ba5cd1316af471804e3943d3",
   "license": "LGPL-3.0-only",
   "depends": "python",
   "post_install": {
